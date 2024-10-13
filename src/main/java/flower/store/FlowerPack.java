@@ -5,7 +5,7 @@ package flower.store;
  */
 public class FlowerPack {
     /**
-     * flower.
+     * flowers.
      */
     private Flower flower;
     /**
