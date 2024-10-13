@@ -8,6 +8,9 @@ import java.util.stream.Collectors;
  * Represents a store that contains multiple flower buckets.
  */
 public class Store {
+    /**
+     * List<FlowerBucket> buckets
+     */
     private List<FlowerBucket> buckets = new ArrayList<>();
 
     /**
@@ -28,7 +31,7 @@ public class Store {
     public List<FlowerBucket> search(final FlowerType flowerType) {
         return buckets.stream()
                 .filter(bucket -> bucket.getFlowerPacks().stream()
-                    .anyMatch(pack -> pack.getFlower().getFlowerType() == flowerType))
+                    .anyMatch(p -> p.getFlower().getFlowerType() == flowerType))
                 .collect(Collectors.toList());
     }
 }

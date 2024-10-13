@@ -7,6 +7,9 @@ import java.util.List;
  * Represents a collection of FlowerPack instances in a flower store.
  */
 public class FlowerBucket {
+    /**
+     * List<FlowerPack> flowerPacks
+     */
     private List<FlowerPack> flowerPacks = new ArrayList<>();
 
     /**
@@ -19,7 +22,7 @@ public class FlowerBucket {
     }
 
     /**
-     * Calculates the total price of all FlowerPack instances in the FlowerBucket.
+     * Calculates the total price of all FlowerPack
      *
      * @return the total price of all flower packs.
      */

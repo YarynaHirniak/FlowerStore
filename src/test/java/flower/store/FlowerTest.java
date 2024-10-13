@@ -11,9 +11,17 @@ import org.junit.jupiter.api.Assertions;
  * Unit tests for the Flower class.
  */
 public class FlowerTest {
+    /**
+     * private static final Random RANDOM_GENERATOR
+     */
     private static final Random RANDOM_GENERATOR = new Random();
+    /**
+     * private static final int MAX_PRICE
+     */
     private static final int MAX_PRICE = 100;
-    
+    /**
+     * Flower flower;
+     */
     private Flower flower;
 
     /**

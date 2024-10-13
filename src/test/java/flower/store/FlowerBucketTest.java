@@ -10,11 +10,25 @@ import java.util.Random;
  * Unit tests for the FlowerBucket class.
  */
 public class FlowerBucketTest {
+    /**
+     * private static final Random RANDOM_GENERATOR
+     */
     private static final Random RANDOM_GENERATOR = new Random();
+    /**
+     * MAX_QUANTITY = 1000
+     */
     private static final int MAX_QUANTITY = 1000;
+    /**
+     *  MAX_PRICE = 100;
+     */
     private static final int MAX_PRICE = 100;
+    /**
+     * private static final int TEST_PRICE = 10;
+     */
     private static final int TEST_PRICE = 10;
-
+    /**
+     * FlowerBucket flowerBucket;
+     */
     private FlowerBucket flowerBucket;
 
     /**
