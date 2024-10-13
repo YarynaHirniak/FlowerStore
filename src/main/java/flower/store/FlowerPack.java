@@ -19,9 +19,9 @@ public class FlowerPack {
      * @param flower  The flower to be included in the pack; should not be null.
      * @param quantity The quantity of the flower in the pack.
      */
-    public FlowerPack(final Flower n_flower, final int n_quantity) {
-        this.flower = n_flower;
-        this.quantity = n_quantity;
+    public FlowerPack(final Flower flowerInstance, final int flowerQuantity) {
+        this.flower = flowerInstance;
+        this.quantity = flowerQuantity;
     }
 
     /**
