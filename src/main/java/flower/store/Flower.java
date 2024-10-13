@@ -19,8 +19,8 @@ public class Flower {
         return color.toString();
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public void setPrice(double newPrice) {
+        this.price = newPrice;
     }
 
     public double getPrice() {
