@@ -14,14 +14,14 @@ public enum FlowerColor {
      */
     BLUE("#0000FF");
     /**
-     * private final String stringRepresentation;
+     * private final String stringRepresentation.
      */
     private final String stringRepresentation;
 
     /**
      * Constructor for FlowerColor enum.
      *
-     * @param colorRepresentation the string representation of the color
+     * @param colorRepresentation the string representation of the color.
      */
     FlowerColor(final String colorRepresentation) {
         this.stringRepresentation = colorRepresentation;

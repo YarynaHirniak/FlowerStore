@@ -11,11 +11,11 @@ import java.util.Random;
  */
 public class FlowerBucketTest {
     /**
-     * private static final Random RANDOM_GENERATOR
+     * private static final Random RANDOM_GENERATOR.
      */
     private static final Random RANDOM_GENERATOR = new Random();
     /**
-     * MAX_QUANTITY = 1000
+     * MAX_QUANTITY = 1000.
      */
     private static final int MAX_QUANTITY = 1000;
     /**
@@ -23,11 +23,11 @@ public class FlowerBucketTest {
      */
     private static final int MAX_PRICE = 100;
     /**
-     * private static final int TEST_PRICE = 10;
+     * private static final int TEST_PRICE = 10.
      */
     private static final int TEST_PRICE = 10;
     /**
-     * FlowerBucket flowerBucket;
+     * FlowerBucket flowerBucket.
      */
     private FlowerBucket flowerBucket;
 

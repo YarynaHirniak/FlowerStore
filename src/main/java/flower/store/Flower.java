@@ -9,21 +9,21 @@ import lombok.Setter;
 @Setter
 public class Flower {
     /**
-     * private double sepalLength;
+     * private double sepalLength.
      */
     @Getter
     private double sepalLength;
     /**
-     * private FlowerColor color;
+     * private FlowerColor color.
      */
     private FlowerColor color;
     /**
-     * private double price;
+     * private double price.
      */
     @Getter
     private double price;
     /**
-     * private FlowerType flowerType;
+     * private FlowerType flowerType.
      */
     @Getter
     private FlowerType flowerType;

@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class FlowerBucket {
     /**
-     * List<FlowerPack> flowerPacks
+     * List<FlowerPack> flowerPacks.
      */
     private List<FlowerPack> flowerPacks = new ArrayList<>();
 
@@ -22,7 +22,7 @@ public class FlowerBucket {
     }
 
     /**
-     * Calculates the total price of all FlowerPack
+     * Calculates the total price of all FlowerPack.
      *
      * @return the total price of all flower packs.
      */

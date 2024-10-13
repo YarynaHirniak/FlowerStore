@@ -12,15 +12,15 @@ import org.junit.jupiter.api.Assertions;
  */
 public class FlowerTest {
     /**
-     * private static final Random RANDOM_GENERATOR
+     * private static final Random RANDOM_GENERATOR.
      */
     private static final Random RANDOM_GENERATOR = new Random();
     /**
-     * private static final int MAX_PRICE
+     * private static final int MAX_PRICE.
      */
     private static final int MAX_PRICE = 100;
     /**
-     * Flower flower;
+     * Flower flower.
      */
     private Flower flower;
 
