@@ -7,16 +7,26 @@ import java.util.Random;
 
 import org.junit.jupiter.api.Assertions;
 
+/**
+ * Unit tests for the Flower class.
+ */
 public class FlowerTest {
     private static final Random RANDOM_GENERATOR = new Random();
     private static final int MAX_PRICE = 100;
+    
     private Flower flower;
 
+    /**
+     * Initializes a new Flower instance before each test.
+     */
     @BeforeEach
     public void init() {
         flower = new Flower();
     }
 
+    /**
+     * Tests the price setting and getting of a flower.
+     */
     @Test
     public void testPrice() {
         int price = RANDOM_GENERATOR.nextInt(MAX_PRICE);
@@ -24,10 +34,13 @@ public class FlowerTest {
         Assertions.assertEquals(price, flower.getPrice());
     }
 
+    /**
+     * Tests the color setting and getting of a flower.
+     */
     @Test
     public void testColor() {
         FlowerColor color = FlowerColor.RED;
         flower.setColor(color);
-        Assertions.assertEquals("#FF0000", flower.getColor());
+        Assertions.assertEquals("#FF0000", flower.getColor().toString());
     }
 }
