@@ -5,20 +5,19 @@ package flower.store;
  */
 public class FlowerPack {
     /**
-     * The flower included in the pack.
+     * flower;
      */
     private Flower flower;
-
     /**
-     * The quantity of the flower in the pack.
+     * The quantity of flowers.
      */
     private int quantity;
 
     /**
      * Constructor for FlowerPack.
      *
-     * @param flowerInstance The flower to be included in the pack; should not be null.
-     * @param flowerQuantity The quantity of the flower in the pack.
+     * @param flower  The flower to be included in the pack.
+     * @param quantity The quantity of the flower in the pack.
      */
     public FlowerPack(final Flower flowerInstance, final int flowerQuantity) {
         this.flower = flowerInstance;
