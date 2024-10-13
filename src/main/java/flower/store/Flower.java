@@ -9,15 +9,15 @@ import lombok.Setter;
 @Setter
 public class Flower {
     @Getter
-    private double sepalLength; // Length of the flower's sepal.
+    private double sepalLength;
 
-    private FlowerColor color; // Color of the flower.
-
-    @Getter
-    private double price; // Price of the flower.
+    private FlowerColor color;
 
     @Getter
-    private FlowerType flowerType; // Type of the flower.
+    private double price;
+
+    @Getter
+    private FlowerType flowerType;
 
     /**
      * Gets the color of the flower as a string.

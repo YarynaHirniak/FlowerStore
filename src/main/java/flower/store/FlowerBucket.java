@@ -7,7 +7,7 @@ import java.util.List;
  * Represents a collection of FlowerPack instances in a flower store.
  */
 public class FlowerBucket {
-    private List<FlowerPack> flowerPacks = new ArrayList<>(); // List of flower packs in the bucket.
+    private List<FlowerPack> flowerPacks = new ArrayList<>();
 
     /**
      * Adds a FlowerPack to the FlowerBucket.

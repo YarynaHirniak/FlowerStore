@@ -13,7 +13,7 @@ public class FlowerBucketTest {
     private static final Random RANDOM_GENERATOR = new Random();
     private static final int MAX_QUANTITY = 1000;
     private static final int MAX_PRICE = 100;
-    private static final int TEST_PRICE = 10; // Replaced magic number
+    private static final int TEST_PRICE = 10;
 
     private FlowerBucket flowerBucket;
 
@@ -32,7 +32,7 @@ public class FlowerBucketTest {
     public void testPrice() {
         int quantity = RANDOM_GENERATOR.nextInt(MAX_QUANTITY);
         Flower flower = new Rose();
-        flower.setPrice(TEST_PRICE); // Use the constant instead of magic number
+        flower.setPrice(TEST_PRICE);
         FlowerPack flowerPack = new FlowerPack(flower, quantity);
         flowerBucket.add(flowerPack);
         int expectedPrice = TEST_PRICE * quantity;

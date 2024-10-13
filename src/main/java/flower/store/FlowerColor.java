@@ -14,7 +14,7 @@ public enum FlowerColor {
      */
     BLUE("#0000FF");
 
-    private final String stringRepresentation; // Hexadecimal representation of the color.
+    private final String stringRepresentation;
 
     /**
      * Constructor for FlowerColor enum.
